@@ -2,13 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './components/ChatBot/ChatBot.jsx'
-import ChatBot from './components/ChatBot/ChatBot.jsx'
+import RailMadad from './components/RailMadad'
 
 function App() {
   return (
     <>
-      <ChatBot/>
+      <RailMadad/>
     </>
   )
 }
